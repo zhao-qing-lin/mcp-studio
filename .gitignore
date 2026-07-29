@@ -1,0 +1,15 @@
+.venv/
+.cache/
+tmp/
+__pycache__/
+*.pyc
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+history.db
+.DS_Store
+.cursor/
+*.egg-info
+.mypy_cache/
+.ruff_cache/
