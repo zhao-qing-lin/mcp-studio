@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-studio"
+version = "0.1.0"
+description = "MCP Studio — AI 时代 MCP 调试工具（类 Postman）"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp",
+    "textual",
+]
+
+[project.scripts]
+mcp-studio = "mcp_studio.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
